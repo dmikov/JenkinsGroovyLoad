@@ -1,6 +1,6 @@
-
+def scripts;
 node{
-  def scripts = load('scripts.groovy')
+  scripts = load('scripts.groovy')
 }
 
 pipeline {
