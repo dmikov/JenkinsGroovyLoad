@@ -16,7 +16,7 @@ def buildThis(projectFolder) {
 }
 
 def printEnv() {
-    println(env.IMAGE_ENVIRONMENTUPDATER)
+    println(env.IMAGE_GROOVY_LOAD)
 }
 
 def printThis(value) {
