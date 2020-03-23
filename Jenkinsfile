@@ -32,7 +32,7 @@ pipeline {
       }
     }
     stage('Conditional') {
-      when { expression { return scripts.buildThis() } }
+      when { expression { return scripts.buildThis('/') } }
       steps {
         sh('echo $env.IMAGE.GROOVY_LOAD')
       }
