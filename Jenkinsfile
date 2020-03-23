@@ -34,7 +34,7 @@ pipeline {
     stage('Conditional') {
       when { expression { return scripts.buildThis('/') } }
       steps {
-        sh('echo $env.IMAGE.GROOVY_LOAD')
+        sh('echo ${env.IMAGE.GROOVY_LOAD}')
       }
  
     }
