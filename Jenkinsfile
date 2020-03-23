@@ -2,7 +2,7 @@ def scripts;
 
 pipeline {
 
-  agent { node { label 'linux'} }
+  agent any
 
   environment {
     IMAGE_GROOVY_LOAD = 'dmikov/groovy-load'
