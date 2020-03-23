@@ -1,4 +1,7 @@
-def scripts;
+
+node{
+  def scripts = load('scripts.groovy')
+}
 
 pipeline {
 
@@ -16,13 +19,13 @@ pipeline {
   }
 
   stages{ 
-    stage('Load scripts') {
-      steps{
-        script{
-          scripts = load('scripts.groovy')
-        }
-      }
-    }
+    // stage('Load scripts') {
+    //   steps{
+    //     script{
+    //       scripts = load('scripts.groovy')
+    //     }
+    //   }
+    // }
     stage('Use scripts') {
       steps {
         script {
