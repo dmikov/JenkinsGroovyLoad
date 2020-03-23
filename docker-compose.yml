@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  local_jenkins:
+    container_name: local_jenkins
+    image: jenkins/jenkins:latest
+    ports:
+      - 8085:8080
+      - 50000:50000
+    restart: unless-stopped
+    networks:
+      internal_network:
+        aliases:
+          - local-jenkins
+    volumes:
+      - jenkins_home:/var/jenkins_home
+
+volumes:
+  jenkins_home:
+    external: false
+
+networks:
+  internal_network:
+    driver: bridge
