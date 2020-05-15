@@ -1,0 +1,17 @@
+[{
+    "httpRequest": {
+        "method": "GET",
+        "path": "/settings/version",
+        "body": "ask"
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "body" : "10.0.2",
+        "headers": {
+            "Location": ["https://www.mock-server.com"]
+        },
+        "cookies": {
+            "sessionId": "2By8LOhBmaW5nZXJwcmludCIlMDAzMW"
+        }
+    }
+}]

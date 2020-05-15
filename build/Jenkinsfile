@@ -1,0 +1,31 @@
+def scripts;
+
+node{
+  scripts = load('scripts.groovy')
+}
+
+pipeline {
+
+  agent { node { CustomS } }
+
+  environment {
+    IMAGE_GROOVY_LOAD = 'dmikov/groovy-load'
+  }
+
+  options {
+    disableConcurrentBuilds()
+    timeout(time: 45, unit: 'MINUTES')
+    timestamps()
+    buildDiscarder(logRotator(artifactNumToKeepStr: '1'))
+  }
+
+  stages{ 
+    stage('Test external script file.') {
+      steps {
+        script {
+          scripts.printThis('External script file loaded.')
+        }
+      }
+    }
+  }
+}

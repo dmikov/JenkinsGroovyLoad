@@ -1,19 +1,36 @@
 version: "3.7"
 services:
-  local_jenkins:
-    container_name: local_jenkins
-    image: jenkins/jenkins:latest
-    ports:
-      - 8085:8080
-      - 50000:50000
-    restart: unless-stopped
-    networks:
-      internal_network:
-        aliases:
-          - local-jenkins
-    volumes:
-      - jenkins_home:/var/jenkins_home
+   local_jenkins:
+     container_name: local_jenkins
+     image: jenkins/jenkins:latest
+     ports:
+       - 8085:8080
+       - 50000:50000
+     restart: unless-stopped
+     networks:
+       internal_network:
+         aliases:
+           - local-jenkins
+     volumes:
+       - ./jenkins_home:/var/jenkins_home
 
+
+#  license_swimlane_io:
+#    image: mockserver/mockserver:mockserver-5.10.0
+#    ports:
+#      - 1080:80
+#    environment:
+#      LOG_LEVEL: "DEBUG"
+#      SERVER_PORT: 80
+#      MOCKSERVER_INITIALIZATION_JSON_PATH: /config/license.swimlane.io.json
+#    user: root
+#    networks:
+#      internal_network:
+#        aliases:
+#          - license.swimlane.io
+#    volumes:
+#      - .:/config
+    
 volumes:
   jenkins_home:
     external: false

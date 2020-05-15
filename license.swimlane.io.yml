@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  title: Swimlane API
+  version: '2.0'
+paths:
+  "/settings/version":
+    get:
+      tags:
+      - settings
+      summary: Gets the API version.
+      description: Gets the API version.
+      operationId: getAPIVersion
+      parameters: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+              examples:
+                current_version:
+                  summary: Current version
+                  value: 10.0.2                  
+                latest:
+                  summary: Latest version
+                  value: 10.0.4
+          '400':
