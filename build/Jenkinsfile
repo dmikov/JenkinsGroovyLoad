@@ -4,7 +4,7 @@ node{
   checkout scm
   def workspace = pwd()
   scripts = load("${workspace}/build/scripts.groovy")
-  config = readJSON file: "${workspace}/config.json"
+  config = readJSON file: "${workspace}/build/config.json"
 }
 
 pipeline {
