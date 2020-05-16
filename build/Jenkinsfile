@@ -1,7 +1,9 @@
 def scripts;
 
 node{
-  scripts = load('build/scripts.groovy')
+  checkout scm
+  def workspace = pwd()
+  scripts = load('${workspace}/build/scripts.groovy')
 }
 
 pipeline {
