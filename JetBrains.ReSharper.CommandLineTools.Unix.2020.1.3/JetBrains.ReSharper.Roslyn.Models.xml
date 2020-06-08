@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JetBrains.ReSharper.Roslyn.Models</name>
+    </assembly>
+    <members>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynModel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:14</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.AnalyzersKind">
+            <summary>
+            <p>Generated from: RoslynModel.kt:228</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.ApplyingChangeState">
+            <summary>
+            <p>Generated from: RoslynModel.kt:281</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.ChangeState">
+            <summary>
+            <p>Generated from: RoslynModel.kt:277</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.Coords">
+            <summary>
+            <p>Generated from: RoslynModel.kt:28</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.DiagnosticBase">
+            <summary>
+            <p>Generated from: RoslynModel.kt:33</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.EncBuildRoslynDeltaResult">
+            <summary>
+            <p>Generated from: RoslynModel.kt:161</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.EncRoslynDiagnostic">
+            <summary>
+            <p>Generated from: RoslynModel.kt:37</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.EncRoslynPauseSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:155</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.EncRoslynSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:139</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.Kind">
+            <summary>
+            <p>Generated from: RoslynModel.kt:162</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.LogMessage">
+            <summary>
+            <p>Generated from: RoslynModel.kt:23</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.LoggingLevel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:18</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.PathMap">
+            <summary>
+            <p>Generated from: RoslynModel.kt:84</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.ProjectModuleInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:72</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynActiveSessionInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:148</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynAnalyzer">
+            <summary>
+            <p>Generated from: RoslynModel.kt:61</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynAssemblyReferenceInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:105</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynDiagnostic">
+            <summary>
+            <p>Generated from: RoslynModel.kt:182</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynDiagnosticProperty">
+            <summary>
+            <p>Generated from: RoslynModel.kt:177</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynGetHighlighterArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:223</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynGetQuickFixesArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:241</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynGetRefactoringsArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:258</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynHighlighter">
+            <summary>
+            <p>Generated from: RoslynModel.kt:235</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynLaunchQuickFixArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:250</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynLaunchRefactoringArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:265</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynOpenDocument">
+            <summary>
+            <p>Generated from: RoslynModel.kt:211</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProject">
+            <summary>
+            <p>Generated from: RoslynModel.kt:125</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectContent">
+            <summary>
+            <p>Generated from: RoslynModel.kt:89</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectId">
+            <summary>
+            <p>Generated from: RoslynModel.kt:76</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectLoadMessage">
+            <summary>
+            <p>Generated from: RoslynModel.kt:118</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectModel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:115</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectReferenceInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:108</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:194</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynProjectTargetFramework">
+            <summary>
+            <p>Generated from: RoslynModel.kt:80</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynQuickFixDescriptor">
+            <summary>
+            <p>Generated from: RoslynModel.kt:246</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynRefactoring">
+            <summary>
+            <p>Generated from: RoslynModel.kt:202</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynRulesetAction">
+            <summary>
+            <p>Generated from: RoslynModel.kt:52</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynRunningTask">
+            <summary>
+            <p>Generated from: RoslynModel.kt:217</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Host.Models.RoslynSeverity">
+            <summary>
+            <p>Generated from: RoslynModel.kt:44</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynModel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:14</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.AnalyzersKind">
+            <summary>
+            <p>Generated from: RoslynModel.kt:228</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.ApplyingChangeState">
+            <summary>
+            <p>Generated from: RoslynModel.kt:281</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.ChangeState">
+            <summary>
+            <p>Generated from: RoslynModel.kt:277</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.Coords">
+            <summary>
+            <p>Generated from: RoslynModel.kt:28</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.DiagnosticBase">
+            <summary>
+            <p>Generated from: RoslynModel.kt:33</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.EncBuildRoslynDeltaResult">
+            <summary>
+            <p>Generated from: RoslynModel.kt:161</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.EncRoslynDiagnostic">
+            <summary>
+            <p>Generated from: RoslynModel.kt:37</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.EncRoslynPauseSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:155</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.EncRoslynSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:139</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.Kind">
+            <summary>
+            <p>Generated from: RoslynModel.kt:162</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.LogMessage">
+            <summary>
+            <p>Generated from: RoslynModel.kt:23</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.LoggingLevel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:18</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.PathMap">
+            <summary>
+            <p>Generated from: RoslynModel.kt:84</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.ProjectModuleInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:72</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynActiveSessionInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:148</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynAnalyzer">
+            <summary>
+            <p>Generated from: RoslynModel.kt:61</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynAssemblyReferenceInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:105</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynDiagnostic">
+            <summary>
+            <p>Generated from: RoslynModel.kt:182</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynDiagnosticProperty">
+            <summary>
+            <p>Generated from: RoslynModel.kt:177</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynGetHighlighterArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:223</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynGetQuickFixesArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:241</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynGetRefactoringsArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:258</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynHighlighter">
+            <summary>
+            <p>Generated from: RoslynModel.kt:235</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynLaunchQuickFixArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:250</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynLaunchRefactoringArgs">
+            <summary>
+            <p>Generated from: RoslynModel.kt:265</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynOpenDocument">
+            <summary>
+            <p>Generated from: RoslynModel.kt:211</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProject">
+            <summary>
+            <p>Generated from: RoslynModel.kt:125</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectContent">
+            <summary>
+            <p>Generated from: RoslynModel.kt:89</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectId">
+            <summary>
+            <p>Generated from: RoslynModel.kt:76</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectLoadMessage">
+            <summary>
+            <p>Generated from: RoslynModel.kt:118</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectModel">
+            <summary>
+            <p>Generated from: RoslynModel.kt:115</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectReferenceInfo">
+            <summary>
+            <p>Generated from: RoslynModel.kt:108</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectSession">
+            <summary>
+            <p>Generated from: RoslynModel.kt:194</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynProjectTargetFramework">
+            <summary>
+            <p>Generated from: RoslynModel.kt:80</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynQuickFixDescriptor">
+            <summary>
+            <p>Generated from: RoslynModel.kt:246</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynRefactoring">
+            <summary>
+            <p>Generated from: RoslynModel.kt:202</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynRulesetAction">
+            <summary>
+            <p>Generated from: RoslynModel.kt:52</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynRunningTask">
+            <summary>
+            <p>Generated from: RoslynModel.kt:217</p>
+            </summary>
+        </member>
+        <member name="T:JetBrains.ReSharper.Roslyn.Worker.Models.RoslynSeverity">
+            <summary>
+            <p>Generated from: RoslynModel.kt:44</p>
+            </summary>
+        </member>
+    </members>
+</doc>

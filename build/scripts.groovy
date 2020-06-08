@@ -5,7 +5,6 @@ def buildThis(projectFolder) {
     for (changeLogSet in currentBuild.changeSets) {
         for (entry in changeLogSet.getItems()) {
             for (file in entry.getAffectedFiles()) {
-                println(file.getPath())
                 if (file.getPath().contains(projectFolder)) {
                     return true
                 }
@@ -13,6 +12,10 @@ def buildThis(projectFolder) {
         }
     }
     return false
+}
+
+def getCodeFilesForAnalysis() {
+    
 }
 
 def printEnv() {

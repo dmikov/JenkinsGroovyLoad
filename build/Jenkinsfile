@@ -29,6 +29,7 @@ pipeline {
           scripts.printThis('External script file loaded.')
         }
         sh("echo ${config['version']}")
+        build job: 'build/Child.Jenkinsfile'
       }
     }
   }
