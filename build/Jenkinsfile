@@ -34,7 +34,6 @@ pipeline {
         script {
           pipelineA.start()
         }
-        build job: pipelineA
       }
     }
   }
