@@ -31,9 +31,8 @@ pipeline {
           scripts.printThis('External script file loaded.')
         }
         sh("echo ${config['version']}")
-        script {
-          pipelineA.start()
-        }
+
+        build job: pipelineA
       }
     }
   }
