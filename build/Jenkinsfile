@@ -1,10 +1,12 @@
 def scripts;
+def pipelineA;
 
 node{
   checkout scm
   def workspace = pwd()
   scripts = load("${workspace}/build/scripts.groovy")
   config = readJSON file: "${workspace}/build/config.json"
+  pipelineA = load("${workspace}/build/Child.Jenkinsfile")
 }
 
 pipeline {
@@ -29,7 +31,10 @@ pipeline {
           scripts.printThis('External script file loaded.')
         }
         sh("echo ${config['version']}")
-        build job: 'Child.Jenkinsfile'
+        script {
+          pipelineA.start()
+        }
+        build job: pipelineA
       }
     }
   }
